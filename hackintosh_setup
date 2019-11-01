@@ -1,0 +1,6 @@
+Hackintosh:
+1. Install: https://forum.amd-osx.com/viewtopic.php?f=24&t=3543
+- Install VirtualBox
+- Install Docker Toolbox
+- Create a virtual machine:  docker-machine create -d virtualbox --virtualbox-no-vtx-check default
+2. Get IP docker of each machine: docker-machine ip <machine_name>
