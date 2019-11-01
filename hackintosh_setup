@@ -4,5 +4,4 @@ Hackintosh:
 - Install Docker Toolbox
 - Create a virtual machine:  docker-machine create -d virtualbox --virtualbox-no-vtx-check default
 2. Get IP docker of each machine: docker-machine ip <machine_name>
-3. Start:
-- eval "$(docker-machine env <machine_name>)"
+3. Start: eval "$(docker-machine env <machine_name>)"
